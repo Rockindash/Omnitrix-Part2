@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6765D532788A7BA009976B7 /* Omnitrix2 WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A6765D522788A7BA009976B7 /* Omnitrix2 WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A6765D582788A7BC009976B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6765D572788A7BC009976B7 /* Assets.xcassets */; };
+		A6765D5E2788A7BD009976B7 /* Omnitrix2 WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A6765D5D2788A7BD009976B7 /* Omnitrix2 WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A6765D632788A7BD009976B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6765D622788A7BD009976B7 /* ContentView.swift */; };
+		A6765D652788A7BD009976B7 /* Omnitrix2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6765D642788A7BD009976B7 /* Omnitrix2App.swift */; };
+		A6765D672788A7BD009976B7 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6765D662788A7BD009976B7 /* ComplicationController.swift */; };
+		A6765D692788A7BE009976B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6765D682788A7BE009976B7 /* Assets.xcassets */; };
+		A6765D6C2788A7BE009976B7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6765D6B2788A7BE009976B7 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6765D542788A7BA009976B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6765D482788A7BA009976B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6765D512788A7BA009976B7;
+			remoteInfo = "Omnitrix2 WatchKit App";
+		};
+		A6765D5F2788A7BD009976B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6765D482788A7BA009976B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6765D5C2788A7BD009976B7;
+			remoteInfo = "Omnitrix2 WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A6765D732788A7BE009976B7 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A6765D5E2788A7BD009976B7 /* Omnitrix2 WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6765D772788A7BE009976B7 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A6765D532788A7BA009976B7 /* Omnitrix2 WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A6765D4E2788A7BA009976B7 /* Omnitrix2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Omnitrix2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6765D522788A7BA009976B7 /* Omnitrix2 WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Omnitrix2 WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6765D572788A7BC009976B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6765D5D2788A7BD009976B7 /* Omnitrix2 WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Omnitrix2 WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6765D622788A7BD009976B7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A6765D642788A7BD009976B7 /* Omnitrix2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Omnitrix2App.swift; sourceTree = "<group>"; };
+		A6765D662788A7BD009976B7 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		A6765D682788A7BE009976B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6765D6B2788A7BE009976B7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A6765D6D2788A7BE009976B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6765D5A2788A7BD009976B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6765D472788A7BA009976B7 = {
+			isa = PBXGroup;
+			children = (
+				A6765D562788A7BA009976B7 /* Omnitrix2 WatchKit App */,
+				A6765D612788A7BD009976B7 /* Omnitrix2 WatchKit Extension */,
+				A6765D4F2788A7BA009976B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6765D4F2788A7BA009976B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6765D4E2788A7BA009976B7 /* Omnitrix2.app */,
+				A6765D522788A7BA009976B7 /* Omnitrix2 WatchKit App.app */,
+				A6765D5D2788A7BD009976B7 /* Omnitrix2 WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6765D562788A7BA009976B7 /* Omnitrix2 WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				A6765D572788A7BC009976B7 /* Assets.xcassets */,
+			);
+			path = "Omnitrix2 WatchKit App";
+			sourceTree = "<group>";
+		};
+		A6765D612788A7BD009976B7 /* Omnitrix2 WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A6765D622788A7BD009976B7 /* ContentView.swift */,
+				A6765D642788A7BD009976B7 /* Omnitrix2App.swift */,
+				A6765D662788A7BD009976B7 /* ComplicationController.swift */,
+				A6765D682788A7BE009976B7 /* Assets.xcassets */,
+				A6765D6D2788A7BE009976B7 /* Info.plist */,
+				A6765D6A2788A7BE009976B7 /* Preview Content */,
+			);
+			path = "Omnitrix2 WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		A6765D6A2788A7BE009976B7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A6765D6B2788A7BE009976B7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6765D4D2788A7BA009976B7 /* Omnitrix2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6765D782788A7BE009976B7 /* Build configuration list for PBXNativeTarget "Omnitrix2" */;
+			buildPhases = (
+				A6765D4C2788A7BA009976B7 /* Resources */,
+				A6765D772788A7BE009976B7 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6765D552788A7BA009976B7 /* PBXTargetDependency */,
+			);
+			name = Omnitrix2;
+			productName = Omnitrix2;
+			productReference = A6765D4E2788A7BA009976B7 /* Omnitrix2.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		A6765D512788A7BA009976B7 /* Omnitrix2 WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6765D742788A7BE009976B7 /* Build configuration list for PBXNativeTarget "Omnitrix2 WatchKit App" */;
+			buildPhases = (
+				A6765D502788A7BA009976B7 /* Resources */,
+				A6765D732788A7BE009976B7 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6765D602788A7BD009976B7 /* PBXTargetDependency */,
+			);
+			name = "Omnitrix2 WatchKit App";
+			productName = "Omnitrix2 WatchKit App";
+			productReference = A6765D522788A7BA009976B7 /* Omnitrix2 WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		A6765D5C2788A7BD009976B7 /* Omnitrix2 WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6765D702788A7BE009976B7 /* Build configuration list for PBXNativeTarget "Omnitrix2 WatchKit Extension" */;
+			buildPhases = (
+				A6765D592788A7BD009976B7 /* Sources */,
+				A6765D5A2788A7BD009976B7 /* Frameworks */,
+				A6765D5B2788A7BD009976B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Omnitrix2 WatchKit Extension";
+			productName = "Omnitrix2 WatchKit Extension";
+			productReference = A6765D5D2788A7BD009976B7 /* Omnitrix2 WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6765D482788A7BA009976B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					A6765D4D2788A7BA009976B7 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					A6765D512788A7BA009976B7 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					A6765D5C2788A7BD009976B7 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = A6765D4B2788A7BA009976B7 /* Build configuration list for PBXProject "Omnitrix2" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6765D472788A7BA009976B7;
+			productRefGroup = A6765D4F2788A7BA009976B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6765D4D2788A7BA009976B7 /* Omnitrix2 */,
+				A6765D512788A7BA009976B7 /* Omnitrix2 WatchKit App */,
+				A6765D5C2788A7BD009976B7 /* Omnitrix2 WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6765D4C2788A7BA009976B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6765D502788A7BA009976B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6765D582788A7BC009976B7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6765D5B2788A7BD009976B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6765D6C2788A7BE009976B7 /* Preview Assets.xcassets in Resources */,
+				A6765D692788A7BE009976B7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6765D592788A7BD009976B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6765D652788A7BD009976B7 /* Omnitrix2App.swift in Sources */,
+				A6765D632788A7BD009976B7 /* ContentView.swift in Sources */,
+				A6765D672788A7BD009976B7 /* ComplicationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6765D552788A7BA009976B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6765D512788A7BA009976B7 /* Omnitrix2 WatchKit App */;
+			targetProxy = A6765D542788A7BA009976B7 /* PBXContainerItemProxy */;
+		};
+		A6765D602788A7BD009976B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6765D5C2788A7BD009976B7 /* Omnitrix2 WatchKit Extension */;
+			targetProxy = A6765D5F2788A7BD009976B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A6765D6E2788A7BE009976B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A6765D6F2788A7BE009976B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6765D712788A7BE009976B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Omnitrix2 WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = LNG8PFABR7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Omnitrix2 WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Omnitrix2 WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amolkumar.Omnitrix2.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		A6765D722788A7BE009976B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Omnitrix2 WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = LNG8PFABR7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Omnitrix2 WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Omnitrix2 WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amolkumar.Omnitrix2.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		A6765D752788A7BE009976B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LNG8PFABR7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Omnitrix2_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Omnitrix2 WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amolkumar.Omnitrix2.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		A6765D762788A7BE009976B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LNG8PFABR7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Omnitrix2_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Omnitrix2 WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amolkumar.Omnitrix2.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		A6765D792788A7BE009976B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LNG8PFABR7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amolkumar.Omnitrix2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A6765D7A2788A7BE009976B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LNG8PFABR7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amolkumar.Omnitrix2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6765D4B2788A7BA009976B7 /* Build configuration list for PBXProject "Omnitrix2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6765D6E2788A7BE009976B7 /* Debug */,
+				A6765D6F2788A7BE009976B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6765D702788A7BE009976B7 /* Build configuration list for PBXNativeTarget "Omnitrix2 WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6765D712788A7BE009976B7 /* Debug */,
+				A6765D722788A7BE009976B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6765D742788A7BE009976B7 /* Build configuration list for PBXNativeTarget "Omnitrix2 WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6765D752788A7BE009976B7 /* Debug */,
+				A6765D762788A7BE009976B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6765D782788A7BE009976B7 /* Build configuration list for PBXNativeTarget "Omnitrix2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6765D792788A7BE009976B7 /* Debug */,
+				A6765D7A2788A7BE009976B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6765D482788A7BA009976B7 /* Project object */;
+}
